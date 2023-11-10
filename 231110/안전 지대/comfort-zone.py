@@ -59,7 +59,7 @@ def calculate_safe_zone(k):
     return count
 
 
-max_count = 0
+max_count = 1
 max_k = 1
 for k in k_list:
     count = calculate_safe_zone(k)
