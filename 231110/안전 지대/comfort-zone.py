@@ -1,3 +1,5 @@
+import sys
+sys.setrecursionlimit(2500)
 # 안전영역을 구하기 =dfs
 # 1~100 반복 시간이 너무 오래걸림
 # 존재하는 원소만 반복
