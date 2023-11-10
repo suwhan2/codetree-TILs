@@ -35,7 +35,8 @@ bombed_count=0
 for i in range(n):
     for j in range(n):
         if visited[i][j]==0:
-            count=0
+            visited[i][j]=1
+            count=1
             dfs(i,j)
             if count>3:
                 bombed_count+=1
