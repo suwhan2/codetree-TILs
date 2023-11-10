@@ -48,7 +48,7 @@ def calculate_safe_zone(k):
     return count
 
 max_count=0
-max_k=0
+max_k=1
 for k in range(1,101):
     count = calculate_safe_zone(k)
     if count>max_count:
