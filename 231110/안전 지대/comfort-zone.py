@@ -13,7 +13,7 @@ visited = [
     [0 for _ in range(M)]
     for _ in range(N)
 ]
-k_list =list()
+k_list =[1]
 for i in range(N):
     for j in range(M):
         if houses[i][j] not in k_list:
@@ -59,8 +59,8 @@ def calculate_safe_zone(k):
     return count
 
 
-max_count = 1
-max_k = 1
+max_count = 0
+max_k = k_list[0]
 for k in k_list:
     count = calculate_safe_zone(k)
     if count > max_count:
