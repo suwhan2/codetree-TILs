@@ -45,6 +45,6 @@ count=0
 for _ in range(k):
     r,c=tuple(map(int,input().split()))
     push(r-1,c-1)
-    bfs()
+bfs()
 
 print(count)
