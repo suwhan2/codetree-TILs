@@ -8,10 +8,13 @@
 
 |총 문제수|획득 경험치|연속 학습|
 |---:|---:|---|
-1|230xp|1일째🔥|
+4|230xp|1일째🔥|
 
 |교재|이름|난이도|상태|최근 제출 코드|
 |---|---|:---:|:---:|---|
+|[Intermediate Low / BFS / 가중치가 동일한 그래프에서의 BFS](https://www.codetree.ai/missions?missionId=2)|[[개념]최소 경로로 탈출 하기](https://www.codetree.ai/missions/2/problems/escape-with-min-distance)|![쉬움][easy]|![Passed][passed]|[링크](https://github.com/suwhan2/codetree-TILs/blob/main/231113/%EC%B5%9C%EC%86%8C%20%EA%B2%BD%EB%A1%9C%EB%A1%9C%20%ED%83%88%EC%B6%9C%20%ED%95%98%EA%B8%B0/escape-with-min-distance.py)|
+|[Intermediate Low / BFS / 가중치가 동일한 그래프에서의 BFS](https://www.codetree.ai/missions?missionId=2)|[[연습]나이트](https://www.codetree.ai/missions/2/problems/knight-movements)|![쉬움][easy]|![Passed][passed]|[링크](https://github.com/suwhan2/codetree-TILs/blob/main/231113/%EB%82%98%EC%9D%B4%ED%8A%B8/knight-movements.py)|
+|[Intermediate Low / BFS / 가중치가 동일한 그래프에서의 BFS](https://www.codetree.ai/missions?missionId=2)|[[연습]비를 피하기](https://www.codetree.ai/missions/2/problems/stay-out-of-rain)|![보통][medium]|![Passed][passed]|[링크](https://github.com/suwhan2/codetree-TILs/blob/main/231113/%EB%B9%84%EB%A5%BC%20%ED%94%BC%ED%95%98%EA%B8%B0/stay-out-of-rain.py)|
 |[Intermediate Low / BFS / 가중치가 동일한 그래프에서의 BFS](https://www.codetree.ai/missions?missionId=2)|[[연습]k개의 벽 없애기](https://www.codetree.ai/missions/2/problems/remove-k-walls)|![보통][medium]|![Passed][passed]|[링크](https://github.com/suwhan2/codetree-TILs/blob/main/231113/k%EA%B0%9C%EC%9D%98%20%EB%B2%BD%20%EC%97%86%EC%95%A0%EA%B8%B0/remove-k-walls.py)|
 
 
