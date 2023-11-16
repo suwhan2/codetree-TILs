@@ -5,7 +5,7 @@
 #f(2) =1, f(3) =1
 
 n=int(input())
-memo=[-1 for _ in range(n+1)]
+memo=[-1 for _ in range(1001)]
 
 def calculate_stair(n):
     if memo[n]!=-1:
@@ -18,4 +18,4 @@ def calculate_stair(n):
     return memo[n]
 
 memo[1]=0
-print(calculate_stair(n))
+print(calculate_stair(n)%10007)
