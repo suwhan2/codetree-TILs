@@ -15,7 +15,10 @@ def calculate_stair(n):
 
     return memo[n]
 
-memo[1]=0
-memo[2]=1
-memo[3]=1
-print(calculate_stair(n))
+if n==2:
+    print(1)
+else:
+    memo[1]=0
+    memo[2]=1
+    memo[3]=1
+    print(calculate_stair(n))
