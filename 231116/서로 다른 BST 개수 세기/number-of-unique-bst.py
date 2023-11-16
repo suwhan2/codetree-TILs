@@ -8,7 +8,7 @@ for i in range(3,n+1):
     for j in range(1,i//2+1):
         sum+=dp[i-j]*2
     if i%2==1:
-        sum+=dp[i//2]
+        sum+=dp[i//2]*dp[i//2]
     dp[i]=sum
 
 print(dp[n])
