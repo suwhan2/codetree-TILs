@@ -11,4 +11,4 @@ def calculate_stair(n):
 
 memo[1]=2
 memo[2]=7
-print(calculate_stair(n)%10007)
+print(calculate_stair(n)%1,000,000,007)
