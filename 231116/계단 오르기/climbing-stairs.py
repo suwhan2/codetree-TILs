@@ -10,7 +10,7 @@ memo=[-1 for _ in range(n+1)]
 def calculate_stair(n):
     if memo[n]!=-1:
         return memo[n]
-    if memo[n]<=3:
+    if n<=3:
         memo[n]=1
     else:
         memo[n] = calculate_stair(n-3) + calculate_stair(n-2)
