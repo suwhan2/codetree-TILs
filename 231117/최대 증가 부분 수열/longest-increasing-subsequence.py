@@ -9,8 +9,4 @@ for i in range(1, N+1):
         if arr[j] < arr[i]:
             dp[i] = max(dp[j] + 1, dp[i])
 
-ans = 0
-for i in range(N):
-    ans = max(ans, dp[i])
-
-print(ans)
+print(max(dp))
