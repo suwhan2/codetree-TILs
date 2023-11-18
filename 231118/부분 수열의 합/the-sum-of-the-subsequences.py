@@ -13,6 +13,8 @@ dp[0] = True
 for i in range(n):
     for j in range(m,-1,-1):
         if j>=arr[i]:
+            if not dp[j-arr[i]]:
+                continue
             dp[j] = dp[j-arr[i]]
 
 # print(dp)
