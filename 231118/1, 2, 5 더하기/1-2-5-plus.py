@@ -11,4 +11,4 @@ for i in range(1,n+1):
             sum1 +=dp[i-j]
     dp[i] = sum1
 
-print(dp[n])
+print(dp[n]%10007)
