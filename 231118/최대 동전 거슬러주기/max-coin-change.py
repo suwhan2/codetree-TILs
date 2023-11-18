@@ -22,10 +22,10 @@ initialize()
 
 for i in range(1,M+1):
     for j in range(N):
-        if dp[i-coins[j]]==min_num:
-            continue
-            
         if i>=coins[j]:
+            if dp[i-coins[j]]==min_num:
+                continue
+            
             dp[i] = max(dp[i], dp[i-coins[j]]+1)
 
 if dp[M]==min_num:
