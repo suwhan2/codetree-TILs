@@ -16,8 +16,8 @@ def initialize():
 
 initialize()
 dp[0][0]=1
-for i in range(1,n):
-    for j in range(1,m):
+for i in range(n):
+    for j in range(m):
         for k in range(i):
             for l in range(j):
                 if dp[k][l]==-1:
