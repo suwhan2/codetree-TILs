@@ -25,7 +25,8 @@ for i in range(1,n):
                 if grid[i][j]>grid[k][l]:
                     dp[i][j] = max(dp[k][l]+1,dp[i][j])
 
-ans=0
+ans=-1
+
 for i in range(n):
     for j in range(m):
         if ans < dp[i][j]:
