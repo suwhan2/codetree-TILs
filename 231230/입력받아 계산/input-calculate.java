@@ -6,5 +6,5 @@ public class Main {
     a=a+2;
         System.out.println(a);
     }
-    }
+    
 }
