@@ -12,7 +12,7 @@ public class Main {
                 score[j]=sc.nextInt();
                 sum+=score[j];
             }
-            if (sum/4>60){
+            if (sum/4>=60){
                 System.out.println("pass");
                 totalPassNumber+=1;
             }
