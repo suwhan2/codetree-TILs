@@ -19,7 +19,7 @@ public class Main {
         boolean ans = false;
         int startNum = arrN2[0];
 
-        for(int i=0;i<n1;i++){
+        for(int i=0;i<=n1-n2;i++){
             if(arrN1[i]==startNum){
                 int k = i+1;
                 for(int j=1;j<n2;j++){
@@ -34,8 +34,7 @@ public class Main {
 
             }
         }
-
-
+        
         //출력부
         if(ans){
             System.out.println("Yes");
