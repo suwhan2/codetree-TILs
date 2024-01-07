@@ -13,6 +13,7 @@ public class Main {
         for(int i=0;i<q;i++){
             int problemNumber = sc.nextInt();
             int a = sc.nextInt();
+
             //질문 1
             if(problemNumber==1){
                 System.out.println(arr[a]);
@@ -24,6 +25,7 @@ public class Main {
                     if(arr[j]==a){
                         System.out.println(j);
                         p=1;
+                        break;
                     }
                 }
                 if(p==0){
