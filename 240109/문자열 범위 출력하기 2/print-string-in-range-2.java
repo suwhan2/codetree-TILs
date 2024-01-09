@@ -6,7 +6,9 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         String arr= sc.next();
         int n = sc.nextInt();
-
+        if(arr.length()<n){
+            n=arr.length();
+        }
         for(int i=arr.length()-1;i>=arr.length()-n;i--){
             System.out.print(arr.charAt(i));
         }
