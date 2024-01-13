@@ -11,12 +11,13 @@ public class Main {
 
         int gap = 'a' - 'A';
         for (int i = 0; i < n; i++) {
-            if ('A' <= arr[i] && arr[i] <= 'z') {
-                if ('A' <= arr[i] && arr[i] <= 'Z') {
-                    arr[i] += gap;
-                }
+            if ('A' <= arr[i] && arr[i] <= 'Z') {
+                System.out.print(arr[i]+=gap);
+            }
+            else if ('a' <= arr[i] && arr[i] <= 'z') {
                 System.out.print(arr[i]);
-            } else if ('0' <= arr[i] && arr[i] <= '9') {
+            }
+            else if ('0' <= arr[i] && arr[i] <= '9') {
                 System.out.print(arr[i]);
             }
         }
