@@ -12,7 +12,7 @@ public class Main {
         int gap = 'a' - 'A';
         for (int i = 0; i < n; i++) {
             if ('A' <= arr[i] && arr[i] <= 'z') {
-                if ('A' <= arr[i] && arr[i] < 'Z') {
+                if ('A' <= arr[i] && arr[i] <= 'Z') {
                     arr[i] += gap;
                 }
                 System.out.print(arr[i]);
