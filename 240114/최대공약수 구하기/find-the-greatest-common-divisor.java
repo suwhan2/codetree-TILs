@@ -9,7 +9,7 @@ public class Main {
             cri=n;
         }
         int ans =1;
-        for(int i=2;i<cri;i++){
+        for(int i=2;i<=cri;i++){
             if(n%i==0&&m%i==0){
                 ans=i;
             }
