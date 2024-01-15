@@ -6,18 +6,22 @@ public class Main {
         if(o=='+'){
             ans= a+c;
             System.out.println(a+" "+o+" "+c+" = "+ans);
+            return;
         }
         if(o=='-'){
             ans =a-c;
             System.out.println(a+" "+o+" "+c+" = "+ans);
+            return;
         }
         if (o == '/') {
             ans= a/c;
             System.out.println(a+" "+o+" "+c+" = "+ans);
+            return;
         }
         if(o=='*'){
             ans = a*c;
             System.out.println(a+" "+o+" "+c+" = "+ans);
+            return;
         }
         else{
             System.out.println("False");
