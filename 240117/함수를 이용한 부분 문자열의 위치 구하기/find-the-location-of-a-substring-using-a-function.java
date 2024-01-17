@@ -14,7 +14,7 @@ public class Main {
 
     public static int checkInvolveArr(){
         int ans =-1;
-        for(int i=0;i<strInput.length();i++){
+        for(int i=0;i<=strInput.length()-desStr.length();i++){
             if(compareTwoStr(i)){
                 ans=i;
                 break;
